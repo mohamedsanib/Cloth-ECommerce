@@ -37,7 +37,7 @@ const displayAllProduct = async() => {
     productElements.forEach((product) => {
         product.addEventListener("click", () => {
             localStorage.setItem("id", product.dataset.about);
-            window.location.href = "../pages/product.html";
+            window.location.href = "./pages/product.html";
         });
     });
 };
