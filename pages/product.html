@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <title>Product</title>
+
+    <link rel="stylesheet" href="../css/common.css" />
+    <link rel="stylesheet" href="../css/nav.css" />
+    <link rel="stylesheet" href="../css/main.css" />
+    <link rel="stylesheet" href="../css/product.css" />
+  </head>
+
+  <body>
+    <nav>
+      <a href="../index.html" class="link-nav">
+        <img src="../img/logo.png" alt="" class="nav-logo" />
+      </a>
+      
+      <div class="nav-search-box">
+        <input type="text" class="search-input" placeholder="Search here..." />
+      </div>
+
+      <div class="nav-right-box">
+        <a href="../pages/signin.html" class="link-nav after-sign">
+          <div class="right-box-items">
+            <img src="../img/user.png" alt="" />
+            Sign in
+          </div>
+        </a>
+
+        <a href="../pages/cart.html" class="link-nav">
+          <div class="right-box-items">
+            <img src="../img/cart.png" alt="" />
+            cart
+          </div>
+        </a>
+      </div>
+    </nav>
+
+    <main class="product-container">
+
+      <div class="product-img-container">
+
+        <div class="img-sliderbox" onclick="">
+          
+        </div>
+
+        <div class="slider-main-img">
+        </div>
+
+      </div>
+
+      <div class="product-details-container">
+
+        <div class="product-name">
+          <p class="product-title limit-text-to-2-lines"></p>
+          <p class="product-disc limit-text-to-2-lines"></p>
+        </div>
+
+        <div class="product-price">
+          <div class="product-all-price">
+            <p class="sell-price">&#8377;</p>
+            <div>
+              <span class="og-price"></span>
+              <span class="offer"></span>
+            </div>
+          </div>
+          <p class="tax-info">inclusive of all taxes</p>
+        </div>
+
+        <div class="product-size">
+          <p class="s-title">SIZE</p>
+          <div class="s-box">
+            
+          </div>
+        </div>
+
+        <div class="product-size">
+          <p class="s-title">COLOR</p>
+          <div class="s-box c-box">
+            
+          </div>
+        </div>
+
+        <div class="btn-divs">
+          <button class="add">Add to Cart</button>
+          <button class="buy">Buy Now</button>
+        </div>
+      </div>
+    </main>
+
+    <!-- <section class="similar-product-container">
+      <p class="similar-product-header">Similar product</p>
+      <div class="contents">
+      </div>
+    </section> -->
+
+    <script src="../scripts/displayProduct.js"></script>
+  </body>
+</html>
